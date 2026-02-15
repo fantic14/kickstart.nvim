@@ -171,7 +171,10 @@ vim.o.confirm = true
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.keymap.set('n', '<leader>pv', ':bd<CR>', { desc = 'Close buffer (current file) and return to Netrw (file explorer)' })
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3585c04 (renamed lua_ls to lua-language-sever for Mason)
 
 -- Diagnostic Config & Keymaps
 -- See :help vim.diagnostic.Opts
