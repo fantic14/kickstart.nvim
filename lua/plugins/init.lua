@@ -33,6 +33,7 @@ require 'plugins.blink'
 
 -- Syntax
 require 'plugins.treesitter'
+require 'plugins.render-markdown'
 
 -- Languages
 require 'plugins.rust'

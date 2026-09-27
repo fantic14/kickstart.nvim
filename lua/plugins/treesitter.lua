@@ -5,7 +5,7 @@ vim.pack.add { { src = 'https://github.com/nvim-treesitter/nvim-treesitter', ver
 local ts = require 'nvim-treesitter'
 
 -- Parsers to always have installed; others are installed on demand
-ts.install { 'bash', 'c', 'rust', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' }
+ts.install { 'bash', 'c', 'rust', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc', 'yaml' }
 
 ---@param buf integer
 ---@param language string
