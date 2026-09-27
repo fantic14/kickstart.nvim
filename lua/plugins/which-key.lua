@@ -12,6 +12,9 @@ require('which-key').setup {
     { '<leader>t', group = '[T]oggle' },
     { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
     { '<leader>r', group = '[R]ust' },
+    { '<leader>c', group = '[C]rates (Cargo.toml)', mode = { 'n', 'v' } },
+    { '<leader>g', group = '[G]it' },
+    { '<leader>x', group = 'Trouble' },
     { 'gr', group = 'LSP Actions', mode = { 'n' } },
   },
 }

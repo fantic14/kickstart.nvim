@@ -12,14 +12,21 @@ require 'plugins.todo-comments'
 
 -- Editing
 require 'plugins.guess-indent'
-require 'plugins.gitsigns'
 
 -- Search & navigation
 require 'plugins.telescope'
+require 'plugins.oil'
+require 'plugins.harpoon'
+
+-- Git (diffview before neogit, so neogit's diffview integration finds it)
+require 'plugins.gitsigns'
+require 'plugins.diffview'
+require 'plugins.neogit'
 
 -- LSP, formatting, completion
 require 'plugins.fidget'
 require 'plugins.lsp'
+require 'plugins.trouble'
 require 'plugins.conform'
 require 'plugins.luasnip'
 require 'plugins.blink'
@@ -29,6 +36,7 @@ require 'plugins.treesitter'
 
 -- Languages
 require 'plugins.rust'
+require 'plugins.crates'
 
 -- Optional kickstart examples (see `lua/kickstart/plugins/`)
 -- require 'kickstart.plugins.debug'
